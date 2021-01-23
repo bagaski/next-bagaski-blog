@@ -1,2 +1,2 @@
-# next-bagaski
-A Blog with nextjs and netlify cms
+# next-bagaski-blog
+I am creating a basic blog with nextjs and netlify cms
