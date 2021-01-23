@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import React, { useEffect } from 'react';
 import Link from 'next/link';
+import Layout from './Layout'
 import fs from 'fs';
 
 export default function Home({slugs}) {
@@ -29,11 +30,13 @@ export default function Home({slugs}) {
 
 
   return (
+    <Layout>
     <div>
     <ul style={styled}>
     {slugs.map(slug => <li key={slug}><Link href={'/' + slug}><a style={styleLinks}>{slug}</a></Link></li>)}
     </ul>
     </div>
+    </Layout>
   )
 }
 
