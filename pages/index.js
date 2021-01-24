@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import React, { useEffect } from 'react';
 import Link from 'next/link';
-import Layout from './Layout'
+import Layout from '../components/layout'
 import fs from 'fs';
 
 export default function Home({slugs}) {
