@@ -1,6 +1,5 @@
 ---
-title: Deb
-description: "Deb story"
+title: For Deb
 ---
 
 ## Deb
@@ -8,4 +7,4 @@ description: "Deb story"
 Deb is Leb. She has
 Vats and the Vats are two:
 
-Pupu and Jo.
+Pupu and Jo are the two Vats
