@@ -8,7 +8,7 @@ collections:
     label: "BlogPost" # Used in the UI
     folder: "content" # The path to the folder where the markdown files are stored
     create: true # Allow users to create new markdown files.
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for front matter. You will need to modify fields according to your project.
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}

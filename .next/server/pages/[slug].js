@@ -780,6 +780,15 @@ const Post = ({
     fontSize: '48px',
     width: '50vw'
   };
+  const linked = {
+    backgroundColor: '#FF0800',
+    padding: '10px',
+    textDecoration: 'none',
+    color: 'white',
+    position: 'fixed',
+    right: '20px',
+    top: '20px'
+  };
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
     children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(next_head__WEBPACK_IMPORTED_MODULE_5___default.a, {
       children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("title", {
@@ -793,6 +802,7 @@ const Post = ({
     }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
       href: "/",
       children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
+        style: linked,
         children: "\u2190 Back"
       })
     })]

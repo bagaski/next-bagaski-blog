@@ -463,6 +463,58 @@ module.exports = require("react/jsx-runtime");
 
 /***/ }),
 
+/***/ "H3qJ":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Layout; });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("F5FC");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("xnum");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+
+function Layout(_ref) {
+  let {
+    children,
+    pageTitle
+  } = _ref,
+      props = _objectWithoutProperties(_ref, ["children", "pageTitle"]);
+
+  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+    children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("meta", {
+        name: "viewport",
+        content: "width=device-width, initial-scale=1"
+      }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("title", {
+        children: "Bagaski Blog"
+      }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("script", {
+        src: "https://identity.netlify.com/v1/netlify-identity-widget.js"
+      })]
+    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("header", {
+      children: "Bagaski"
+    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("section", {
+      className: "layout",
+      children: ["?//", /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+        className: "content",
+        children: children
+      })]
+    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("footer", {
+      children: "Built by Bagaski!"
+    })]
+  });
+}
+
+/***/ }),
+
 /***/ "Nh2W":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -734,70 +786,20 @@ module.exports = require("next/dist/next-server/lib/router-context.js");
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, "default", function() { return /* binding */ Home; });
-__webpack_require__.d(__webpack_exports__, "getStaticProps", function() { return /* binding */ getStaticProps; });
-
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__("F5FC");
-
-// EXTERNAL MODULE: external "next/head"
-var head_ = __webpack_require__("xnum");
-var head_default = /*#__PURE__*/__webpack_require__.n(head_);
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__("cDcd");
-
-// EXTERNAL MODULE: ./node_modules/next/link.js
-var next_link = __webpack_require__("YFqc");
-var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
-
-// CONCATENATED MODULE: ./components/layout.js
-
-
-
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
-
-
-function Layout(_ref) {
-  let {
-    children,
-    pageTitle
-  } = _ref,
-      props = _objectWithoutProperties(_ref, ["children", "pageTitle"]);
-
-  return /*#__PURE__*/Object(jsx_runtime_["jsxs"])(jsx_runtime_["Fragment"], {
-    children: [/*#__PURE__*/Object(jsx_runtime_["jsxs"])(head_default.a, {
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("meta", {
-        name: "viewport",
-        content: "width=device-width, initial-scale=1"
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("title", {
-        children: "Bagaski Blog"
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("script", {
-        src: "https://identity.netlify.com/v1/netlify-identity-widget.js"
-      })]
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("section", {
-      className: "layout",
-      children: ["//", /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-        className: "content",
-        children: children
-      })]
-    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("footer", {
-      children: "Built by Bagaski!"
-    })]
-  });
-}
-// EXTERNAL MODULE: external "fs"
-var external_fs_ = __webpack_require__("mw/K");
-var external_fs_default = /*#__PURE__*/__webpack_require__.n(external_fs_);
-
-// CONCATENATED MODULE: ./pages/index.js
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Home; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getStaticProps", function() { return getStaticProps; });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("F5FC");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("xnum");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("cDcd");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("YFqc");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("H3qJ");
+/* harmony import */ var fs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("mw/K");
+/* harmony import */ var fs__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(fs__WEBPACK_IMPORTED_MODULE_5__);
 
 
 
@@ -807,7 +809,7 @@ var external_fs_default = /*#__PURE__*/__webpack_require__.n(external_fs_);
 function Home({
   slugs
 }) {
-  Object(external_react_["useEffect"])(() => {
+  Object(react__WEBPACK_IMPORTED_MODULE_2__["useEffect"])(() => {
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on("init", user => {
         if (!user) {
@@ -820,20 +822,22 @@ function Home({
   }, []);
   const styled = {
     fontSize: '48px',
-    listStyleType: 'none'
+    listStyleType: 'none',
+    fontFamily: 'times',
+    fontWeight: ''
   };
   const styleLinks = {
-    color: 'red',
+    color: '#FF0800',
     textDecoration: 'none'
   };
-  return /*#__PURE__*/Object(jsx_runtime_["jsx"])(Layout, {
-    children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("ul", {
+  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_layout__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+      children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("ul", {
         style: styled,
-        children: slugs.map(slug => /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+        children: slugs.map(slug => /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
+          children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
             href: '/' + slug,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
+            children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
               style: styleLinks,
               children: slug
             })
@@ -844,7 +848,7 @@ function Home({
   });
 }
 const getStaticProps = async () => {
-  const files = external_fs_default.a.readdirSync('content');
+  const files = fs__WEBPACK_IMPORTED_MODULE_5___default.a.readdirSync('content');
   return {
     props: {
       slugs: files.map(filename => filename.replace('.md', ''))

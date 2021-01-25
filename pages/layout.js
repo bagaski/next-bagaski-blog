@@ -8,8 +8,9 @@ export default function Layout({ children, pageTitle, ...props }) {
         <title>Bagaski Blog</title>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Head>
+      <header>Bagaski</header>
       <section className="layout">
-        //<div className="content">{children}</div>
+        ?//<div className="content">{children}</div>
       </section>
       <footer>Built by Bagaski!</footer>
     </>

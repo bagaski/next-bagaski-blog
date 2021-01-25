@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import React, { useEffect } from 'react';
 import Link from 'next/link';
-import Layout from '../components/layout'
+import Layout from './layout'
 import fs from 'fs';
 
 export default function Home({slugs}) {
@@ -21,11 +21,13 @@ export default function Home({slugs}) {
   const styled = {
     fontSize: '48px',
     listStyleType: 'none',
+    fontFamily: 'times',
+    fontWeight: ''
   }
 
   const styleLinks = {
-    color: 'red',
-    textDecoration: 'none'
+    color: '#FF0800',
+    textDecoration: 'none',
   }
 
 

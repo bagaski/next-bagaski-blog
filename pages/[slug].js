@@ -1,6 +1,6 @@
 import React from 'react';
 import fs from 'fs';
-import path from 'path';
+import path, { isAbsolute } from 'path';
 import matter from 'gray-matter';
 import Head from 'next/head';
 import marked from 'marked';
@@ -14,6 +14,15 @@ const Post = ({htmlString, data}) => {
     width: '50vw'
   }
 
+const linked = {
+  backgroundColor: '#FF0800',
+  padding: '10px',
+  textDecoration: 'none',
+  color: 'white',
+  position: 'fixed',
+  right: '20px',
+  top: '20px'
+}
 
   return (
 
@@ -21,7 +30,7 @@ const Post = ({htmlString, data}) => {
     <Head><title>{data.title}</title></Head>
     <div style={styled} dangerouslySetInnerHTML={{__html: htmlString}} />
     <Link href="/">
-    <a>
+        <a style={linked} >
     ← Back
     </a>
     </Link>
