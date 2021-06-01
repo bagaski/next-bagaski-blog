@@ -1,7 +1,8 @@
 ---
-title: Who is Bagaski
+title: Bagaski's music
 ---
+I am a multidisciplinary artist from Greece who lives in Berlin. You can check my self-released albums and my releases through various labels on my bandcamp and soundcloud links:
 
-## Who is Bagaski?
+https://bagaski.bandcamp.com/
 
-Bagaski is an multidisciplinary artist from Greece who lives in Berlin. This is a testing blog site which I am planning to develop further. And i just did this edit to check if after a a change to my GitHub repo Netlify initiates a build.
+https://soundcloud.com/bagaski
